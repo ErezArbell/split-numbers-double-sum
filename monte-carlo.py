@@ -9,7 +9,7 @@ range_of_numbers = 1000
 count_of_numbers = 40
 
 numbers = []
-for i in range(100):
+for i in range(count_of_numbers):
   numbers.append(random.randint(1,range_of_numbers))
 
 sum_of_numbers = sum(numbers)
